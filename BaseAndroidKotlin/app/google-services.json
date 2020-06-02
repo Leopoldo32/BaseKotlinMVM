@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63473198567",
+    "firebase_url": "https://lineabasekotlin.firebaseio.com",
+    "project_id": "lineabasekotlin",
+    "storage_bucket": "lineabasekotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63473198567:android:28047e5e28f17439690942",
+        "android_client_info": {
+          "package_name": "com.rhonaldelgado.baseandroidkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63473198567-lqhv9bfgj9rlm898c49m2uaga7nn7f5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmQuNW0acYiM6pGp0Nz7Au6VYvJfFsruk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63473198567-lqhv9bfgj9rlm898c49m2uaga7nn7f5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

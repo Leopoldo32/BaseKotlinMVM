@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BaseAndroidKotlin</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correio eletrônico</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou Registrar</string>
+    <string name="action_sign_in_short">Enterokay</string>
+    <string name="welcome">"bem-vinda !"</string>
+    <string name="invalid_username">Usuário Inválido</string>
+    <string name="invalid_password">A senha deve conter mais de 5 caracteres</string>
+    <string name="login_failed">"Falha no login"</string>
+    <string name="title_activity_menuprincipal">Menu principal</string>
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+
+    <string name="nav_header_title">Nome de usuário</string>
+    <string name="nav_header_subtitle">correousuario@android.com</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configuração</string>
+
+    <string name="menu_home">Casa</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Alertas</string>
+
+    <string name="home_second">Segunda casa</string>
+    <string name="homefragment">Esta é uma casa de fragmentos</string>
+    <string name="galleryfragment">Esta é uma galeria de fragmentos</string>
+    <string name="sliderfragment">Esta é uma alertas de fragmentos</string>
+
+    <string name="dialog_title_default">Alerta</string>
+    <string name="dialog_message_default">Olá mundo</string>
+    <string name="dialog_button1_default">Aceitar</string>
+    <string name="dialog_button2_default">Cancelar</string>
+</resources>
