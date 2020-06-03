@@ -1,10 +1,15 @@
 package com.rhonaldelgado.baseandroidkotlin.ui.menuprincial
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -21,6 +26,7 @@ import kotlinx.android.synthetic.main.nav_header_menuprincipal.view.emailLogin
 class menuprincipal : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private val TAG = "PermissionDemo"
 
     var LoginUser: String = ""
     var LoginEmail: String = ""
@@ -30,6 +36,8 @@ class menuprincipal : AppCompatActivity() {
         setContentView(R.layout.activity_menuprincipal)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
+
 
         LoginUser = intent.extras!!.getString("NameUser", "Vacio")
         LoginEmail = intent.extras!!.getString("EmailUser", "Vacio")
@@ -52,6 +60,9 @@ class menuprincipal : AppCompatActivity() {
         emailLogin.text = LoginEmail
         userLogin.text = LoginUser
     }
+
+
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.

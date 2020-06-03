@@ -2,7 +2,9 @@ package com.rhonaldelgado.baseandroidkotlin.ui.menuprincial.ui.gallery
 
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -48,6 +50,8 @@ class GalleryFragment : Fragment() {
             intent.putExtra("producto", listaProductos[i])
             startActivity(intent)
         }
+
+
         /*
         NO BORRAR: si utilizamos este codigo, traerá información del modelo, en este caso it= "Mensaje enviado desde el modelo Gallery"
         galleryViewModel.text.observe(viewLifecycleOwner, Observer {
@@ -55,4 +59,5 @@ class GalleryFragment : Fragment() {
         })*/
         return root
     }
+
 }
